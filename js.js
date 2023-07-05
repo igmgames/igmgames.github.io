@@ -9,5 +9,7 @@ let footerHTML = "<hr><p>hello</p>";
 
 if (document.getElementById("header")) {
   document.getElementById("header").innerHTML = headerHTML;
+}
   if (document.getElementById("footer")) {
   document.getElementById("footer").innerHTML = footerHTML;
+}

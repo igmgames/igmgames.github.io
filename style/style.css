@@ -7,8 +7,8 @@
     the images as variables */
 
             :root {
-                --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-                --body-bg-image: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+                --header-image: url('');
+                --body-bg-image: url('');
 
                 /* colors */
                 --content: #43256E;
@@ -86,11 +86,15 @@
             /* the area below is for all links on your page
     EXCEPT for the navigation */
             #container a {
-                color: #f564c0;
+                color: #e6a1a1;
                 font-weight: bold;
                 /* if you want to remove the underline
       you can add a line below here that says:
       text-decoration:none; */
+            }
+			#container li a:hover {
+                color: #a49cba;
+                text-decoration: underline;
             }
 
             #header {
@@ -127,7 +131,7 @@
 
             /* navigation links*/
             #navbar li a {
-                color: #ED64F5;
+                color: #e6a1a1;
                 /* navbar text color */
                 font-weight: 800;
                 text-decoration: none;
@@ -148,7 +152,7 @@
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
             aside {
-                background-color: #241445;
+                background-color: #1508c9;
                 width: 200px;
                 padding: 20px;
                 font-size: smaller;
@@ -159,7 +163,7 @@
             /* this is the color of the main content area,
     between the sidebars! */
             main {
-                background-color: #43256E;
+                background-color: #1740bd;
                 flex: 1;
                 padding: 20px;
                 order: 2;
@@ -192,7 +196,8 @@
             h1,
             h2,
             h3 {
-                color: #ED64F5;
+                color: #c77979;
+				text-shadow:1px 1px 0 black;
             }
 
             h1 {

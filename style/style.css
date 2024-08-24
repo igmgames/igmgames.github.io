@@ -76,6 +76,7 @@
       and change the media query according to the comment! */
                 margin: 0 auto;
                 /* this centers the entire page */
+				word-wrap: break-word;
             }
 
             /* the area below is for all links on your page

@@ -18,27 +18,43 @@
               </ul></nav></div>
 
             <div id="flex">
-                <aside id="leftSidebar" style="margin-right: 10px;">
+                <aside id="sidebar" style="margin-right: 10px;">
                     <h2>Welcome</h2>
                     <p>Here you can find some cool games made in IGM (well, kind of).</p>
                     <p>This section changes based on what page you are on. For example, if you were on a game page, this section will have related links and other information instead of what you see here. Take a look, perhaps?
-                    <h2>Recent Update (August 22, 2024)</h2>
+                    <h2>Recent Update (January 9, 2025)</h2>
                     <div class="box">
-                        <p>my laptop got broke arc has started once more</p>
+                        <p>New Year, New Look, Same Taste</p>
                         <ul style="padding-left:10px;">
-							<li>Yeah. For almost 24 hours the site had some broken/unfinished content as I needed to backup some files on this site late in my backup process and making those files live was the easiest way at that point. Some changes will be kept, will others will be made unacessible outside of the source code.</li>
-							<li>The title by the way comes from my history of breaking laptops.</li>
-							<li>Homepage updated to switch out featured games and again to replace the unfinished page with The Spinoff Game which the former used its banners from.</li>
-							<li>Updated the numbers below. I now consider pages with all necessary parts as complete regardless of its origin and status so the numbers are a bit different.</li>
-							<li>12/277 Games With Completed Pages</li>
-							<li>16/277 Documented Games Added With Pages</li>
+							<li>Hey! It's been some time, but now I am working on this place again.</li>
+							<li>2024 updates are now in the <a href = "./updates/2024.html">2024 updates</a> page.</li>
+							<li>The css has been updated to use a different layout as a base, being nomnomnami's Searina template. I mainly replaced the old one with the new one and then forced some old code to the new one. After some minor struggles, I made it work.</li>
+							<li>This update also fixes some scaling issues with mobile devices, such as the main content or images being bigger than the screen's width, and renames the column classes to banner.</li>
+							<li>Updated the About and Guide pages to reflect the css changes.</li>
+							<li>Recent Update is now constrained to a certain size (so this doesn't go beyond an entire page's content, which was an issue in the Official page).
+							<li>All current Rylie Eric pages with Rylie Eric Website Universe links have been updated to use the new Projects section instead.</li>
+							<li>Updated the numbers below.</li>
+							<li>13/284 Games With Completed Pages</li>
+							<li>17/284 Documented Games Added With Pages</li>
 						</ul>
 						<p>Updated/New Pages</p>
 						<ul style="padding-left:10px;">
-							<li><a href = "games/g/sms24.html">Stone Mine Simulator 2024 by LGPlayer13</a> (This was forked on August 9th / Completed)</li>
-							<li><a href = "games/g/tll.html">The Lost Labyrinths by LGPlayer13</a> (Fixed site links yet again)</li>
-							<li><a href = "games/a/LGPlayer13.html">LGPlayer13</a> (Fixed site links yet again)</li>
-							<li><a href = "games/Mining.html">Mining</a></li>
+							<li><a href = "games/g/fd.html">Forez's Dream by FrenzY</a> (Now mentions the currently in development sequel)</li>
+							<li><a href = "games/g/icf.html">Ice Cream Fusions by AgentRylie</a> (See above)</li>
+							<li><a href = "games/g/lwpd.html">Literally Watch Paint Dry by Rylie Eric</a> (See above; also Rylie and Rose have started dating since this site's last update in August so words have been added to reflect that)</li>
+							<li><a href = "games/g/milk.html">Get a Glass of Milk Because You Have To by Rylie Eric</a> (See above; also now mentions the currently in development Revamped)</li>
+							<li><a href = "games/g/pm.html">Pancake Maker by AgentRylie</a> (See above)</li>
+							<li><a href = "games/retail.html">Retail</a> (Added Pancake Maker's banner)</li>
+						</ul>
+						<p>New Games</p>
+						<p>Note: After this update, all new games will have pages created in the same update it's added.</p>
+						<ul style="padding-left:10px;">
+							<li>Capybaraaaaa Clicker 1 by Rfonte5748 (Animal)</li>
+							<li>Dark Arts by A Masked Slime (Fantasy)</li>
+							<li>Pizza Click by Twisters87 (Food - Other)</li>
+							<li>Idle Chemical Maker by Ge0482 (Science)</li>
+							<li>Clacker by George (Technology)</li>
+							<li>Mushroom Clicker by themeowingsage (Miscellaneous)</li>
 						</ul>
                     </div>
                 </aside>
@@ -49,7 +65,8 @@
 					<p>Before we begin, there are some things that you should keep in mind. These are basically terms. If you don't follow them, I'll likely reject the page and/or banners.</p>
 					<ol>
 						<li><a href = "https://orteil.dashnet.org/igm/help.html#andNowForSomeRules">IGM has rules.</a> Follow them.</li>
-						<li>Typically, I only add games that have been released somewhere.</li>
+						<li>Typically, I only add games that have been released somewhere.*</li>
+							<ul><li>Some unreleased games may have pages if they are relevant enough and/or have playable builds, such as Evermagic (to be added), but this is on a case-by-case basis and are only included in author pages for now.</li></ul>
 						<li>All game pages must use the same id in the file name (more on it later).</li>
 						<li>All author pages must use the author name as the file name. (like <a href = "games/a/fractyl.html">fractyl.html</a> or <a href = "games/a/rylie-eric.html">rylie-eric.html</a>)</li>
 						<li>All html pages must follow the same format and css of all of the other pages (although you can make a unique css file for your game if I approve of it beforehand and also doesn't completely change the page)</li>
@@ -66,6 +83,7 @@
 					<p>Some games without pages already have ids. See <a href = "other files/game-ids.txt">this page</a> for games with ids but no pages. This is a text file for simplicity. As long as an id isn't already in use though, you can use whatever you want. For this example, I'll use the id "pm" for Pancake Maker.</p>
 					<p>In the text editor of your choice (I'll be using Notepad++), open a new copied file named the game id you picked, and change the game name and author to, well, your own game name and name! Once you do that, it should look like this in the editor. Changes to note are underlined. Don't worry about everything else just yet.</p>
 					<img src="other files/guide-note.png" alt="Due to the nature of the guide, I can't really do alt text. I suggest you look at the files on GitHub instead." width="500px">
+					<p><b>Note: "leftSidebar" is now just "sidebar". Do not use "leftSidebar".</b></p>
 					<p>We're going to focus on the left sidebar first. First, we'll change the theme listed to whatever theme our game is (or not, if it is the same from where we copied it, which in this case is not). Usually themes are already decided, but if you think your game fits better elsewhere, you should change it to that instead. Change both the "a href" link as well as the text to match.</p>
 					<p>Next is the mini banner or the only img line in the sidebar. For visual purposes, I'll change it despite not having made banners for this game yet, but if you want a mini banner, this is where you would put it on your game page.</p>
 					<p>Next is the Game Name by Author line. The text should already be changed, but now we'll also change the link to our author page (if you have one, that is). You can remove it too if it is not a concern for you right now (remove both the a href and /a).</p>
